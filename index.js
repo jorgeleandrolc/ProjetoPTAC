@@ -32,6 +32,10 @@ app.get('/autenticar', async function(req, res){
   res.render('autenticar');
 })
 
+app.get('/cadastrar', async function(req, res){
+  res.render('cadastrar');
+})
+
 app.get('/', async function(req, res){lista
   const usuario = await usuario.create(req.body)
   res.json('usuario')
