@@ -30,7 +30,7 @@ git config user.email "luizpicolo@gmail.com"
 
 git add . 
 git commit -m "Mensagem inicial"
-git remote add origin https://github.com/luizpicolo/teste.git
+git remote add origin 
 
 # Criar Token de acesso caso não tenha
 
