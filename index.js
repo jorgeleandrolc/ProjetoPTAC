@@ -36,6 +36,11 @@ app.get('/cadastrar', async function(req, res){
   res.render('cadastrar');
 })
 
+// app.post('/cadastrar', async function(re, res){
+//   const usuario = await usuario.create(req.body)
+//   res.json(usuario_)
+// })
+
 app.get('/', async function(req, res){lista
   const usuario = await usuario.create(req.body)
   res.json('usuario')
