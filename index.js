@@ -3,7 +3,6 @@ require("dotenv-safe").config();
 const jwt = require('jsonwebtoken');
 var { expressjwt: expressJWT } = require("express-jwt");
 const cors = require('cors');
-const crypt = require('./cryptografia')
 
 var cookieParser = require('cookie-parser')
 
